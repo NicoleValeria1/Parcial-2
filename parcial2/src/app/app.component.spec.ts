@@ -18,10 +18,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dinosaurios-list'`, () => {
+  it(`should have as title 'parcial2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('dinosaurios-list');
+    expect(app.title).toEqual('parcial2');
   });
 
 });
